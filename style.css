@@ -1,0 +1,83 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  background-size: 300px;
+  font-family: 'Cantarell', sans-serif;
+}
+
+h1 {
+font-family: 'Alfa Slab One', cursive;
+font-size: 3em;
+margin-bottom: 0;
+}
+
+.container {
+  background-color: yellow;
+  border-radius: 30px;
+  max-width: 800px;
+  text-align: center;
+  margin: 50px auto;
+  border: 5px solid aqua;
+  line-height: 2;
+  font-size: 20px;
+  padding: 0 100px 50px 100px;
+}
+
+li {
+  list-style: none;
+}
+
+
+.buttons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: #F2385A;
+  display: inline-block;
+  max-height: 40px;
+  margin: 30px;
+  top: 100px;
+  padding: 10px;
+  padding-bottom: 40px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px #f02046, 0px 0px 20px 0px #bbb;
+  transition: all 0.2s;
+}
+
+a:active {
+  top: 108px;
+  box-shadow: 0px 7px 0px 0px #f02046;
+}
+
+.button2 {
+  background-color: #3498DB;
+  box-shadow: 0px 15px 0px 0px #258cd1;
+  font-family: 'Alfa Slab One', cursive;
+}
+.button2:active {
+  box-shadow: 0px 7px 0px 0px #258cd1;
+}
+
+ng-view {
+  margin: auto;
+  text-align: left;
+  width: 200px;
+  margin: auto;
+}
+
+input {
+  height: 30px;
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
+ul {
+  width: 70%;
+  margin: 0 200px;
+}
